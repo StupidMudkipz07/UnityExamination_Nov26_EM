@@ -6,7 +6,7 @@ public class CollisionChecker : MonoBehaviour
      public bool IsTouching;
 
     [SerializeField] protected LayerMask targetLayer;
-
+    
     protected bool IsTargetLayer(int layer)
     {
         // Bitwise check: is the object's layer part of the ground mask?5
